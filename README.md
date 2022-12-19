@@ -1,6 +1,6 @@
 # TwicPics Components + Nuxt2
 
-This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/nuxt-2#nuxt-2?utm_source=github&utm_medium=organic&utm_campaign=components) using [Nuxt 2](https://nuxtjs.org/).
+This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/nuxt-2?utm_source=github&utm_medium=organic&utm_campaign=components) using [Nuxt 2](https://nuxtjs.org/).
 
 ## How to build
 

@@ -1,6 +1,6 @@
 <template>
   <div id="twic-flip-card-container">
-    <TwicWrapper git-hub-url="src/components/TwicFlipCards.vue">
+    <TwicWrapper git-hub-url="pages/flip-cards.vue">
       <TwicAbstract title="Flip cards">
         <p>Move your mouse over the images below.</p>
       </TwicAbstract>

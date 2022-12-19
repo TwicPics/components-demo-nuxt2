@@ -1,6 +1,6 @@
 <template>
   <div id="twic-short-videos-container">
-    <TwicWrapper git-hub-url="src/components/TwicShortVideos.vue">
+    <TwicWrapper git-hub-url="pages/short-videos.vue">
       <TwicAbstract title="Short Videos">
         <p>
           The ideal candidates for TwicPics video integration are hero videos,

@@ -1,6 +1,6 @@
 <template>
   <div id="twic-ratio-container">
-    <TwicWrapper git-hub-url="src/components/TwicRatio.vue">
+    <TwicWrapper git-hub-url="pages/ratio.vue">
       <TwicAbstract title="ratio property">
         <p>
           <strong>

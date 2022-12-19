@@ -1,6 +1,6 @@
 <template>
   <div id="twic-bulk-loading-container">
-    <TwicWrapper git-hub-url="src/components/TwicBulkLoading.vue">
+    <TwicWrapper git-hub-url="pages/bulk-loading.vue">
       <TwicAbstract title="Bulk loading">
         <p>
           With<TwicCode>TwicImg</TwicCode>and<TwicCode>TwicVideo</TwicCode>your

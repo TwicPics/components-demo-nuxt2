@@ -27,11 +27,7 @@
           >
           ,&nbsp;
           <TwicCode>right</TwicCode
-          >,<TwicCode>top-left</TwicCode>,<TwicCode>top-right</TwicCode>,<TwicCode
-            >bottom-left</TwicCode
-          >
-          and&nbsp;
-          <TwicCode>bottom-right</TwicCode>.
+          >,<TwicCode>top-left</TwicCode>,<TwicCode>top-right</TwicCode>,<TwicCode>bottom-left</TwicCode>,<TwicCode>bottom-right</TwicCode>and<TwicCode>center</TwicCode>.
         </p>
         <p>
           Please note that anchor is applied after an eventual transformation
@@ -132,7 +128,7 @@ export default {
     return {
       horizontalConfig: [
         {
-          anchor: undefined,
+          anchor: `center`,
         },
         {
           anchor: `left`,
@@ -144,7 +140,7 @@ export default {
       indiceConfig: 0,
       verticalConfig: [
         {
-          anchor: undefined,
+          anchor: `center`,
         },
         {
           anchor: `top`,

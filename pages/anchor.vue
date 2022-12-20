@@ -1,6 +1,6 @@
 <template>
   <div id="twic-anchor-container">
-    <TwicWrapper git-hub-url="pages/TwicAnchor.vue">
+    <TwicWrapper git-hub-url="pages/anchor.vue">
       <TwicAbstract title="anchor property">
         <p>
           <strong>
@@ -36,16 +36,16 @@
         <p>
           Please note that anchor is applied after an eventual transformation
           defined with&nbsp;
-          <a href="/pre-transform" target="_blank" rel="noreferrer">
-            preTransform
-          </a>
+          <a href="/pre-transform" target="_blank" rel="noreferrer"
+            >preTransform</a
+          >
           &nbsp;property.
         </p>
         <p>
           For a more specific positionning see&nbsp;
-          <a href="/position" target="_blank" rel="noreferrer"> position </a>
+          <a href="/position" target="_blank" rel="noreferrer">position</a>
           &nbsp;or&nbsp;
-          <a href="/focus" target="_blank" rel="noreferrer"> focus </a>
+          <a href="/focus" target="_blank" rel="noreferrer">focus</a>
           &nbsp;properties in for
           <TwicCode>contain</TwicCode>or <TwicCode>cover</TwicCode>mode
           respectively.

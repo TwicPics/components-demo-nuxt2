@@ -17,10 +17,8 @@
             </li>
             <li>
               specify the dimensions of the original image in&nbsp;
-              <a href="/intrinsic" target="_blank" rel="noreferrer">
-                intrinsic
-              </a>
-              property as in<TwicCode>intrinsic="3840x2160"</TwicCode>
+              <a href="/intrinsic" target="_blank" rel="noreferrer">intrinsic</a
+              >property as in<TwicCode>intrinsic="3840x2160"</TwicCode>
             </li>
           </ul>
           <p>

@@ -38,7 +38,7 @@
         <p>
           If you only need border-based positionning
           (<TwicCode>top</TwicCode>,<TwicCode>bottom</TwicCode>, etc), use&nbsp;
-          <a href="/anchor" target="_blank" rel="noreferrer"> anchor </a>
+          <a href="/anchor" target="_blank" rel="noreferrer">anchor</a>
           &nbsp;instead.
         </p>
       </TwicAbstract>

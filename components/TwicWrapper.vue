@@ -16,7 +16,7 @@
         <div>
           <a
             target="_blank"
-            :href="gitHubRedirect"
+            :href="gitHubUrl"
             rel="noreferrer"
             title="Open in Github"
           >
@@ -53,12 +53,12 @@
 </template>
 
 <script>
-const ONLINE_URL = `https://stackblitz.com/edit/github-wpprt7?file=`
-const GITHUB = `https://github.com/TwicPics/demo-components-nuxt2`
+const GITHUB_REPO_NAME = `TwicPics/components-demo-nuxt2`
+const GITHUB = `https://github.com/${GITHUB_REPO_NAME}`
 export default {
   name: 'TwicWrapper',
   props: {
-    gitHubUrl: {
+    filename: {
       type: String,
       required: false,
       default: undefined,
@@ -70,14 +70,24 @@ export default {
       documentationUrl: `https://www.twicpics.com/docs/components/nuxt-2?utm_source=github&utm_medium=organic&utm_campaign=components`,
       frameworkLogo: `https://assets.twicpics.com/demo/@twicpics-components/logos/nuxt-2.png`,
       gitHubLogo: `/github-mark-white.svg`,
-      gitHubRedirect: ``,
+      gitHubUrl: ``,
       stackBlitzLogo: `/stackblitz.svg`,
     }
   },
   created() {
-    this.onlineUrl = `${ONLINE_URL}${this.gitHubUrl || 'README.md'}`
-    this.gitHubRedirect = this.gitHubUrl
-      ? `${GITHUB}/blob/main/${this.gitHubUrl}`
+    this.onlineUrl = `https://stackblitz.com/github/${GITHUB_REPO_NAME}?file=${
+      this.filename || 'README.md'
+    }`
+    if (this.filename) {
+      const test = /pages\/(.*)\./.exec(this.filename)
+      if (test) {
+        // eslint-disable-next-line no-unused-vars
+        const [_, initialPath] = test
+        this.onlineUrl = `${this.onlineUrl}&initialpath=${initialPath}`
+      }
+    }
+    this.gitHubUrl = this.filename
+      ? `${GITHUB}/blob/main/${this.filename}`
       : GITHUB
   },
 }

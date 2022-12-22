@@ -1,6 +1,6 @@
 <template>
   <div id="twic-mode-container">
-    <TwicWrapper git-hub-url="pages/mode.vue">
+    <TwicWrapper filename="pages/mode.vue">
       <TwicAbstract title="mode property">
         <p>
           <strong>

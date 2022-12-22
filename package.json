@@ -17,7 +17,7 @@
     "serve": "nuxt"
   },
   "dependencies": {
-    "@twicpics/components": "^0.14.1",
+    "@twicpics/components": "latest",
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",

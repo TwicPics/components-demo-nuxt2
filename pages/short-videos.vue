@@ -111,11 +111,4 @@ export default {
   name: 'TwicShortVideo',
 }
 </script>
-<style lang="scss">
-#twic-short-videos-container {
-  .twic-item .twic-w {
-    background-color: #00ffa3;
-    display: block;
-  }
-}
-</style>
+

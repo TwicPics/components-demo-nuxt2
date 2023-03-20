@@ -1434,10 +1434,8 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@twicpics/components@^0.14.1":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.14.1.tgz#10e8f20ada44893ae5c9ed31edbc58436aea4cfa"
-  integrity sha512-xqIRfLbSguWvcFYbK/Vs6YU4yBnmKAGu/egxvzN0c+QurmmyAYiO1usJl6fBFGMwjITPX2hsvSy8wI8yBDTqag==
+"@twicpics/components@../../components/dist":
+  version "0.15.1"
 
 "@types/eslint@^7.29.0":
   version "7.29.0"

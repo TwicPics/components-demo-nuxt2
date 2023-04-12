@@ -64,7 +64,7 @@
           <TwicImg
             :zoom="zoom"
             src="components/zoom/stamp-on-envelopes.jpg"
-            preTransform="focus=40px35p/crop=800x800"
+            pre-transform="focus=40px35p/crop=800x800"
             intrinsic="800x800"
           />
           <span>
